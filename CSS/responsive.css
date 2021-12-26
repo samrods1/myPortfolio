@@ -1,0 +1,131 @@
+@media screen and (max-width:768px) {
+
+    h1{
+        font-size: 130px;
+    }
+
+    header{
+        width:100%;
+    }
+
+    h6{
+        display: none;
+    }
+
+    .landingPg{
+
+        background: linear-gradient(-20deg, #190029 40%, rgba(0, 0, 0, 0) 20%);
+
+    }
+
+
+    .about_container{
+        position: relative;
+        margin: auto;
+        background: linear-gradient(to bottom, #000135 0%, #000b1a 100%);
+    }
+
+    .abtMe{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+       
+    }
+
+    #avatar2{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    h1{
+        font-size: 130px;
+    }
+
+    header{
+        width:100%;
+    }
+
+    .about_container{
+        position: relative;
+        margin: auto;
+        background: linear-gradient(to bottom, #000135 0%, #000b1a 100%);
+    }
+
+    .abtMe{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+
+    .aboutMe{
+        text-align: left;
+    }
+
+    #avatar2{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width:530px) {
+
+    h1{
+        font-size: 80px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    header{
+        width:90%;
+        position: fixed;
+        background: linear-gradient(to right, #190035 0%, #000b1a 100%);
+        
+
+    }
+
+    .dropdown-content{
+        background: linear-gradient(to right, #190035 0%, #000b1a 100%);
+    }
+
+    .dropdown-content a{
+        font-size: 15px;
+    }
+
+    .about_container{
+        position: relative;
+        margin: auto;
+        background: linear-gradient(to bottom, #000135 0%, #000b1a 100%);
+    }
+
+    .abtMe{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .aboutMe{
+        text-align: left;
+    }
+
+    #avatar2{
+        display: none;
+    }
+
+    .socialMedia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pgLangs{
+        display: flex;
+        align-content: center;
+    }
+
+}
